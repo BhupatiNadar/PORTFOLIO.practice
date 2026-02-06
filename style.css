@@ -1,0 +1,109 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 5rem;
+            background-color: black;
+            color:white;
+            display: flex;
+        }
+        header div{
+            margin: 20px;
+            font-size: 40px;
+        }
+        header ol{
+            list-style: none;
+            display: flex;
+            align-items: center; 
+            color: white;
+            margin-left: auto;
+            margin-right: 30px;
+        }
+       header ol li {
+        color: white;
+        margin-left: 40px;
+        font-size: 25px;
+       }
+
+       header ol li a {
+    color: white;            
+    text-decoration: none;   
+      }
+
+      header ol li a:hover {
+    color: yellow;              
+      }
+
+       main{
+        width: auto;
+        height: 600px;
+        background-color:rgb(3, 3, 54);
+        display: flex;
+       }
+
+       .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+
+       main div img[src="Portfolio.avif"]{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover
+       }
+
+       .content{
+        margin-left: 100px;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        font-size: 30px;
+       }
+
+       footer{
+        background-color:rgb(3, 3, 54);
+        color: white;
+        font-size: 30px;
+       }
+
+       body{
+         background-color:rgb(3, 3, 54);
+       }
+
+       .Portfolio{
+        text-shadow: 2px 3px 2px red;
+       }
+
+       .information{
+        text-shadow: 2px 3px 2px green;
+       }
+
+       .PortfolioIcon{
+        margin: 20px;
+       }
+
+       .github_And_linkdin_Icon{
+        margin-top: 50px;
+       }
+       .text1{text-shadow: 2px 3px 2px red; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+       .text2{text-shadow: 2px 3px 2px green;font-family: Arial, Helvetica, sans-serif;}
+
+       .AboutMe{
+            width: auto;
+        height: 700px;
+        color: white;
+       }
+
+       .AboutMe_header{
+        font-size: 30px;
+        text-align: center;
+       }
+
+       

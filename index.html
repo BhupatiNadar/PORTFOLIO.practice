@@ -4,87 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        header{
-            height: 5rem;
-            background-color: black;
-            color:white;
-            display: flex;
-        }
-        header div{
-            margin: 20px;
-            font-size: 40px;
-        }
-        header ol{
-            list-style: none;
-            display: flex;
-            align-items: center; 
-            color: white;
-            margin-left: auto;
-            margin-right: 30px;
-        }
-       header ol li {
-        color: white;
-        margin-left: 40px;
-        font-size: 25px;
-       }
-
-       header ol li a {
-    color: white;            
-    text-decoration: none;   
-      }
-
-      header ol li a:hover {
-    color: yellow;              
-      }
-
-       main{
-        background-color:rgb(3, 3, 54);
-        display: flex;
-       }
-
-       .main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        align-self: center;
-        margin: 20px;
-       }
-
-       main div img[src="Portfolio.avif"]{
-        width: 400px;
-        height: 400px;
-        border-radius: 50%;
-        object-fit: cover
-       }
-
-       .content{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 30px;
-        color: white;
-        font-size: 20px;
-       }
-       footer{
-        background-color:rgb(3, 3, 54);
-        color: white;
-        font-size: 20px;
-       }
-       body{
-         background-color:rgb(3, 3, 54);
-       }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div>PORTFOLIO</div>
-        <ol>
+        <div class="Portfolio">PORTFOLIO</div>
+        <ol class="information">
             <li><a href="">About me</a></li>
             <li><a href="">Home</a></li>
             <li><a href="">Project</a></li>
@@ -93,33 +18,44 @@
     </header>
     <main>
         <div class="main">
-        <div >
+        <div class="PortfolioIcon">
             <img src="Portfolio.avif" alt="Portfolio icon" >
         </div>
-            <div>
+            <div class="github_And_linkdin_Icon">
+                <a href="https://github.com/BhupatiNadar">
                 <img src="github.svg" alt="Github icon" width="75" height="75" >
+                </a>
+                <a href="">
                 <img src="linkedin.webp" alt="linkdin icon" width="75" height="75">
+                </a>
             </div>
             </div>
         <div class="content">
-            <h3>Hello, I`m</h3>
-            <h1>Bhupati Nadar</h1>
-            <p>
-                A second-year <br>Engineering student <br>specializing in <br>
+            <h3 class="text1">Hello, I`m</h3>
+            <h1 class="text2">Bhupati Nadar</h1>
+            <p class="text1">
+                A second-year <br>Engineering student specializing in <br>
                 Artificial Intelligence &  <br>Data Science
             </p>
-            <p>
+            <p class="text2">
                 I'm a passionate Software Developerwho loves building robust and <br>scalable web applications, and exploring AI-driven technologies.
             </p>
         </div>
     </main>
-    <footer>
+    <div class="seperator"></div>
+    <div class="AboutMe">
+        <div class="AboutMe_header"><u>About Me </u></div>
+    </div>
+    <Project class="Project">
+
+    </Project>
+    <footer class="Footer">
         <form action="">
             <h2>Contact info</h2>
             <span>Full Name:</span><div><input type="text" placeholder="Full name"></div>
             <span>Email:</span><div><input type="text" placeholder="Email"></div>
             <span>Number:</span><div><input type="text" placeholder="Number"></div>
-            <span>Number:</span><div><input type="text" placeholder="Text..."></div>
+            <span>Reason:</span><div><input type="text" placeholder="Text..."></div>
             <div><input type="submit" ></div>
         </form>
     </footer>
